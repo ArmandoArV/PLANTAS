@@ -10,11 +10,38 @@
 </head>
 <body>
     <header>
-        <h1>PLANTY</h1>
+        <h1>REGISTER</h1>
     </header>
     <main>
-        <div>
-            
-        </div>
+        <section id = "register">
+            <h2> Join the Planty family! </h2>
+            <!--form with js-->
+            <ul>
+                <li>
+                    <label for="username" id="UserNameHeader">Username</label>
+                </li>
+                <li>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </li>
+                <li>
+                    <label for="password" id = "PasswordHeader">Password</label>
+                </li>
+                <li>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </li>
+                <li>
+                    <label for="confirmPassword" id = "PasswordHeader">Confirm Password</label>
+                </li>
+                <li>
+                    <input type="confirmPassword" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                </li>
+                <li>
+                    <button type="submit" id="register" onclick="addRegister()">Join!</button>
+                </li>
+                <li>
+                    <button type="submit" id="cancel" onclick="cancelRegister();" >Cancel</button>
+                </li>
+            </ul>
+        </section>
     </main>
 </body>
