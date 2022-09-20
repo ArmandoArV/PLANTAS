@@ -20,7 +20,13 @@ body {
 }
 
 #UserNameHeader{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#PasswordHeader{
+    font-size: 25px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -40,3 +46,24 @@ body {
     text-align: center;
 }
 
+#login li {
+    padding: 20px;
+    float: none;
+}
+
+#login{
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    padding : 10px 60px;
+}
+
+#username{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#password{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
