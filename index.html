@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src = "js\main.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js\main.js"></script>
 
-    <title>PLANTY</title>
-</head>
-    <body>
-        <header>
-            <h1>PLANTY</h1>
-        </header>
-        <main>
-            <section id = "login">
-                <h2> Welcome to Planty! </h2>
-                <!--form with js-->
-                <ul>
-                    <li>
-                        <label for="username" id="UserNameHeader">Username</label>
-                    </li>
-                    <li>
-                        <input type="text" id="username" name="username" placeholder="Username">
-                    </li>
-                    <li>
-                        <label for="password" id = "PasswordHeader">Password</label>
-                    </li>
-                    <li>
-                        <input type="password" id="password" name="password" placeholder="Password">
-                    </li>
-                    <li>
-                        <button type="submit" id="login" onclick="login()">Login</button>
-                    </li>
-                    <li>
-                        <button type="submit" id="register" onclick="register();" >Register</button>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>Planty</p>
-        </footer>
-    </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Planty</title>
+  </head>
+  <body>
+    <header>
+      <h1>Planty</h1>
+    </header>
+    <main>
+      <section id="login">
+        <h2>Welcome to Planty!</h2>
+        <!--form with js-->
+        <ul>
+          <li>
+            <label for="username" id="UserNameHeader">Username</label>
+          </li>
+          <li>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Username"
+            />
+          </li>
+          <li>
+            <label for="password" id="PasswordHeader">Password</label>
+          </li>
+          <li>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+          </li>
+          <li>
+            <button type="submit" id="login" onclick="login()">Login</button>
+          </li>
+          <li>
+            <button type="submit" id="register" onclick="register();">
+              Register
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Planty</p>
+    </footer>
+  </body>
 </html>
