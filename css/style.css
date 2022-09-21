@@ -1,16 +1,15 @@
 header{
-    background-color: rgb(6, 140, 49);
-    color: #fff;
-    padding: 10px;
+    background-color: #39720C;
+    color: #ffffff;
+    padding: 4px;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 header h1{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-family: 'Leckerli One', cursive;
 }
 
 body {
