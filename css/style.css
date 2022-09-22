@@ -1,39 +1,51 @@
 header{
     background-color: #39720C;
     color: #ffffff;
-    padding: 4px;
+    padding: 1px;
     text-align: center;
     font-size: 10px;
     font-weight: bold;
 }
 
 header h1{
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Leckerli One', cursive;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: rgb(0, 0, 0);
+    background-color: #c4e187;
+    margin: 0;
 }
 
 #UserNameHeader{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #PasswordHeader{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#login{
+    background-color: #b2d5ca;
+    border-radius: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding : 10px 60px;
+    font-size: 20px;
 }
 
 #login h2{
     font-size: 40px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Indie flower';
     text-align: center;
 }
 
@@ -42,7 +54,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
 }
 
 #login li {
@@ -50,15 +61,8 @@ body {
     float: none;
 }
 
-#login{
-    text-align: center;
-    padding: 12px;
-    font-size: 20px;
-    padding : 10px 60px;
-}
 
 #register{
-    text-align: center;
     padding: 12px;
     font-size: 20px;
     padding : 10px 60px;
@@ -69,7 +73,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
 }
 
 #register li {
@@ -77,8 +80,18 @@ body {
     float: none;
 }
 
+#LoginButton{
+    background-color: #43ae8d;
+    border-radius: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Indie flower';
+    border: none;
+    width: 150px;
+}
+
 #cancel {
-    text-align: center;
     padding: 6px;
     font-size: 14px;
     padding : 8px 30px;
@@ -86,15 +99,28 @@ body {
 
 #username{
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    border : none;
+    width: 300px;
 }
 
 #password{
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    border : none;
+    width: 300px;
 }
 
 #confirmPassword{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    #login{
+        width: 230px;
+
+    }
 }
