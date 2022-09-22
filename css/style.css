@@ -5,8 +5,22 @@ header{
     text-align: center;
     font-size: 10px;
     font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
+footer{
+    background-color: #39720C;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Leckerli One', cursive;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
 header h1{
     font-size: 60px;
     font-family: 'Leckerli One', cursive;
@@ -34,12 +48,18 @@ body {
     background-color: #b2d5ca;
     border-radius: 20px;
     width: 400px;
-    margin: 0 auto;
+    height: 400px;
     padding: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     padding : 10px 60px;
     font-size: 20px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 #login h2{
@@ -47,25 +67,33 @@ body {
     font-weight: bold;
     font-family: 'Indie flower';
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #login ul {
     list-style-type: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    text-align: center;
 }
 
 #login li {
-    padding: 20px;
     float: none;
+    padding: 6px;
+    display: inline-block;
 }
 
 
 #register{
-    padding: 12px;
-    font-size: 20px;
-    padding : 10px 60px;
+    background-color: #43ae8d;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Indie flower';
+    border: none;
+    width: 150px;
 }
 
 #register ul {
@@ -83,7 +111,7 @@ body {
 #LoginButton{
     background-color: #43ae8d;
     border-radius: 10px;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     font-family: 'Indie flower';
@@ -103,6 +131,7 @@ body {
     border-radius: 10px;
     border : none;
     width: 300px;
+    position: relative;
 }
 
 #password{
@@ -118,9 +147,91 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#register_background{
+    background-color: #43ae8d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding : 10px 60px;
+    font-size: 20px;
+}
+
+#register_background ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
 @media screen and (max-width: 600px) {
+    header{
+        font-size: 5px;
+        position: relative;
+    }
+    
     #login{
         width: 230px;
-
+        height: 600px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+        padding : 10px 60px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
+
+    #login ul{
+        padding: 0;
+    }
+
+    #login li{
+        padding: 15px;
+        display: block;
+    }
+    #register_background{
+        width: 230px;
+    }
+
+    #username{
+        width: 100px;
+    }
+
+    #password{
+        width: 100px;
+    }
+
+    #register{
+        width: 100px;
+        font-size: 20px;
+    }
+
+    #LoginButton{
+        width: 100px;
+    }
+
+    #cancel{
+        padding : 8px 20px;
+    }
+
+    #login h2{
+        font-size: 35px;
+    }
+
+    #login{
+        padding : 10px 30px;
+    }
+
+    #register_background{
+        padding : 10px 30px;
+    }
+
 }

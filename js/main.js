@@ -41,3 +41,7 @@ function addRegister() {
 function cancelRegister() {
     window.location.href = "index.html";
 }
+
+function returnMain() {
+    window.location.href = "index.html";
+}
