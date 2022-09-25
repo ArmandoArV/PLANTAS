@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel = "icon" href = "img/logo.jpg">
     <script type="text/javascript" src="js\main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +16,9 @@
   <body>
     <header>
       <h1>Planty</h1>
+      <div id="header_logo-box">
+        <img src="img/logo.jpg" alt="Logo" id="header_logo" />
+      </div>
     </header>
     <main>
       <section id="login">
@@ -22,7 +26,7 @@
         <!--form with js-->
         <ul>
           <li>
-            <label for="username" id="UserNameHeader">Username</label>
+            <label for="username" id="UserNameHeader">Username:</label>
           </li>
           <li>
             <input
@@ -33,7 +37,7 @@
             />
           </li>
           <li>
-            <label for="password" id="PasswordHeader">Password</label>
+            <label for="password" id="PasswordHeader">Password:</label>
           </li>
           <li>
             <input
@@ -47,12 +51,42 @@
             <button type="submit" id="LoginButton" onclick="login()">Login</button>
           </li>
           <li>
-            <button type="submit" id="register" onclick="register();">
+            <button type="submit" id="register" onclick="animateToRegister();">
               Register
             </button>
           </li>
         </ul>
       </section>
+      <section id = "register_background">
+        <h2 id = "join_header"> Join the Planty family! </h2>
+        <!--form with js-->
+        <ul>
+            <li>
+                <label for="username" id="UserNameHeader">Username</label>
+            </li>
+            <li>
+                <input type="text" id="username" name="username" placeholder="Username">
+            </li>
+            <li>
+                <label for="password" id = "PasswordHeader">Password</label>
+            </li>
+            <li>
+                <input type="password" id="password" name="password" placeholder="Password">
+            </li>
+            <li>
+                <label for="confirmPassword" id = "PasswordHeader">Confirm Password</label>
+            </li>
+            <li>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+            </li>
+            <li>
+                <button type="submit" id="register" onclick="addRegister()">Join!</button>
+            </li>
+            <li>
+                <button type="submit" id="cancel" onclick="cancelRegister();" >Cancel</button>
+            </li>
+        </ul>
+    </section>
     </main>
     <footer>
       <p>Planty</p>
