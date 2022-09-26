@@ -25,7 +25,7 @@ footer{
     cursor: default;
 }
 header h1{
-    font-size: 45px;
+    font-size: 55px;
     font-family: 'Leckerli One', cursive;
 }
 
@@ -111,7 +111,7 @@ body {
 
 #register{
     background-color: #43ae8d;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -121,7 +121,19 @@ body {
     cursor: pointer;
 }
 
-#register:hover{
+#register_button{
+    background-color: #036848;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}
+
+#register_button:hover{
     background-color: #39720C;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
 }
@@ -139,8 +151,8 @@ body {
 }
 
 #LoginButton{
-    background-color: #43ae8d;
-    border-radius: 10px;
+    background-color: #036848;
+    border-radius: 20px;
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -159,6 +171,21 @@ body {
     padding: 6px;
     font-size: 14px;
     padding : 8px 30px;
+    background-color: #a23535;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#cancel:hover{
+    background-color: #ff0000;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
 }
 
 #username{
@@ -228,6 +255,7 @@ body {
     font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
     margin-bottom: 5px;
+    margin-top: -5px;
 }
 
 #confirmPassword{
@@ -284,6 +312,10 @@ body {
         font-size: 20px;
     }
 
+    #confirmPassword{
+        width: 100px;
+    }
+
     #LoginButton{
         width: 100px;
     }
@@ -302,6 +334,9 @@ body {
 
     #register_background{
         padding : 10px 30px;
+    }
+    #header_logo{
+        display: none;
     }
 
 }
